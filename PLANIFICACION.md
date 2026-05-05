@@ -11,10 +11,10 @@
 ## Fases del Desarrollo (Iterativo)
 
 ### Fase 1: Setup del Entorno y Estructura Django
-- [ ] Inicializar repositorio Git.
-- [ ] Crear entorno virtual (`venv`) e instalar `django`, `ruff` y `pytest-django`.
-- [ ] Crear el proyecto Django y la aplicación `inventory`.
-- [ ] Configurar herramientas de calidad y crear el pipeline de GitHub Actions (`.github/workflows/django-ci.yml`).
+- [x] Inicializar repositorio Git.
+- [x] Crear entorno virtual (`venv`) e instalar `django`, `ruff` y `pytest-django`.
+- [x] Crear el proyecto Django y la aplicación `inventory`.
+- [x] Configurar herramientas de calidad y crear el pipeline de GitHub Actions (`.github/workflows/django-ci.yml`).
 
 ### Fase 2: Modelo de Datos y Migraciones
 - [ ] Definir el modelo `Product` en `models.py` (nombre, precio, stock, categoría).
