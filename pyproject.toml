@@ -1,6 +1,8 @@
 [tool.ruff]
-line-length = 88
-# Reglas básicas: Errores (E), Advertencias (F) e Imports (I)
+line-length = 100
+exclude = ["**/migrations/*"]
+
+[tool.ruff.lint]
 select = ["E", "F", "I"]
 
 [tool.pytest.ini_options]
