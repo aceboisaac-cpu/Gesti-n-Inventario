@@ -26,9 +26,9 @@
 - [x] Implementar las validaciones personalizadas (precio > 0, stock >= 0). Django ya maneja campos obligatorios por defecto.
 
 ### Fase 4: Vistas (CRUD) y URLs
-- [ ] Configurar las URLs de la aplicación.
-- [ ] Implementar las vistas (recomiendo usar **Class-Based Views** como `ListView`, `CreateView`, `UpdateView` y `DeleteView` para demostrar dominio del framework).
-- [ ] Implementar la funcionalidad de búsqueda filtrando el QuerySet en la vista de listado.
+- [x] Configurar las URLs de la aplicación.
+- [x] Implementar las vistas (recomiendo usar **Class-Based Views** como `ListView`, `CreateView`, `UpdateView` y `DeleteView`).
+- [x] Implementar la funcionalidad de búsqueda filtrando el QuerySet en la vista de listado.
 
 ### Fase 5: Frontend con Django Templates
 - [ ] Crear una `base.html` para la estructura general y bloques de contenido.
