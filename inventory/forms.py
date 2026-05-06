@@ -1,3 +1,4 @@
+from decimal import Decimal
 from django import forms
 from .models import Product
 
@@ -15,8 +16,8 @@ class ProductForm(forms.ModelForm):
 
     def clean_price(self):
         price = self.cleaned_data.get('price')
-        if price <= 0:
-            raise forms.ValidationError("El precio debe ser un número positivo mayor a cero.")
+        if price is not None and price < Decimal('0.01'):
+            raise forms.ValidationError("El precio debe ser al menos 0.01.")
         return price
 
     def clean_stock(self):

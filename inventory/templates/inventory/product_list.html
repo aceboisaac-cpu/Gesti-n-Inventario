@@ -45,12 +45,12 @@
                 <td><span class="fw-bold text-dark">${{ product.price }}</span></td>
                 <td class="text-center">
                     {% if product.stock == 0 %}
-                    <span class="badge bg-danger rounded-pill px-3">Sin Stock</span>
-                    {% elif product.stock < 10 %} <span class="badge bg-warning text-dark rounded-pill px-3">{{
-                        product.stock }} (Bajo)</span>
-                        {% else %}
+                        <span class="badge bg-danger rounded-pill px-3">Sin Stock</span>
+                    {% elif product.stock < 10 %}
+                        <span class="badge bg-warning text-dark rounded-pill px-3">{{ product.stock }}</span>
+                    {% else %}
                         <span class="badge bg-success rounded-pill px-3">{{ product.stock }}</span>
-                        {% endif %}
+                    {% endif %}
                 </td>
                 <td class="text-end pe-4">
                     <a href="{% url 'product_update' product.pk %}"

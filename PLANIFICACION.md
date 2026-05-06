@@ -36,6 +36,20 @@
 - [x] Aplicar estilos CSS (limpios y funcionales) aprovechando las etiquetas de Django.
 
 ### Fase 6: Testing y Refinado
-- [ ] Escribir tests para los modelos y las vistas usando `pytest`.
-- [ ] Asegurar que el sistema de búsqueda y las validaciones funcionan como se espera.
-- [ ] Documentar el `README.md` con los pasos para ejecutar el servidor y crear un superusuario.
+- [x] Escribir tests para los modelos y las vistas usando `pytest`.
+- [x] Asegurar que el sistema de búsqueda y las validaciones funcionan como se espera.
+- [x] Documentar el `README.md` con los pasos para ejecutar el servidor y crear un superusuario.
+
+### Fase 7: Seguridad y Autenticación (Próximamente)
+- [ ] Implementar sistema de Login/Logout.
+- [ ] Restringir acceso al inventario solo a usuarios autenticados.
+- [ ] Asignar permisos: solo el admin puede borrar productos.
+
+### Fase 8: Exportación de Datos (Próximamente)
+- [ ] Implementar botón para descargar lista de productos en CSV o Excel.
+- [ ] Generar reporte en PDF del inventario actual.
+
+### Fase 9: Cierre y Documentación Técnica (Próximamente)
+- [ ] Refactorización final y limpieza de comentarios.
+- [ ] Documentar API (opcional) o manual de usuario final.
+- [ ] Preparar para despliegue.
