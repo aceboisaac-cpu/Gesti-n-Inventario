@@ -17,13 +17,13 @@
 - [x] Configurar herramientas de calidad y crear el pipeline de GitHub Actions (`.github/workflows/django-ci.yml`).
 
 ### Fase 2: Modelo de Datos y Migraciones
-- [ ] Definir el modelo `Product` en `models.py` (nombre, precio, stock, categoría).
-- [ ] Ejecutar migraciones para crear la base de datos SQLite.
-- [ ] **Extra Pro:** Registrar el modelo en el `admin.py` para tener un panel de control inmediato.
+- [x] Definir el modelo `Product` en `models.py` (nombre, precio, stock, categoría).
+- [x] Ejecutar migraciones para crear la base de datos SQLite.
+- [x] **Extra Pro:** Registrar el modelo en el `admin.py` para tener un panel de control inmediato.
 
 ### Fase 3: Lógica de Formularios y Validaciones
-- [ ] Crear `forms.py` usando `ModelForm`.
-- [ ] Implementar las validaciones personalizadas (precio > 0, stock >= 0). Django ya maneja campos obligatorios por defecto.
+- [x] Crear `forms.py` usando `ModelForm`.
+- [x] Implementar las validaciones personalizadas (precio > 0, stock >= 0). Django ya maneja campos obligatorios por defecto.
 
 ### Fase 4: Vistas (CRUD) y URLs
 - [ ] Configurar las URLs de la aplicación.
