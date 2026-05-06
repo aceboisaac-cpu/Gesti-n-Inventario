@@ -1,3 +1,4 @@
+from decimal import Decimal
 from django.core.validators import MinValueValidator
 from django.db import models
 
@@ -10,7 +11,7 @@ class Product(models.Model):
     price = models.DecimalField(
         max_digits=10, 
         decimal_places=2, 
-        validators=[MinValueValidator(0.01)],
+        validators=[MinValueValidator(Decimal('0.01'))],
         verbose_name="Precio"
     )
     

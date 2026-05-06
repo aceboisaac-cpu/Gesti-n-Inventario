@@ -17,25 +17,39 @@
 - [x] Configurar herramientas de calidad y crear el pipeline de GitHub Actions (`.github/workflows/django-ci.yml`).
 
 ### Fase 2: Modelo de Datos y Migraciones
-- [ ] Definir el modelo `Product` en `models.py` (nombre, precio, stock, categoría).
-- [ ] Ejecutar migraciones para crear la base de datos SQLite.
-- [ ] **Extra Pro:** Registrar el modelo en el `admin.py` para tener un panel de control inmediato.
+- [x] Definir el modelo `Product` en `models.py` (nombre, precio, stock, categoría).
+- [x] Ejecutar migraciones para crear la base de datos SQLite.
+- [x] **Extra Pro:** Registrar el modelo en el `admin.py` para tener un panel de control inmediato.
 
 ### Fase 3: Lógica de Formularios y Validaciones
-- [ ] Crear `forms.py` usando `ModelForm`.
-- [ ] Implementar las validaciones personalizadas (precio > 0, stock >= 0). Django ya maneja campos obligatorios por defecto.
+- [x] Crear `forms.py` usando `ModelForm`.
+- [x] Implementar las validaciones personalizadas (precio > 0, stock >= 0). Django ya maneja campos obligatorios por defecto.
 
 ### Fase 4: Vistas (CRUD) y URLs
-- [ ] Configurar las URLs de la aplicación.
-- [ ] Implementar las vistas (recomiendo usar **Class-Based Views** como `ListView`, `CreateView`, `UpdateView` y `DeleteView` para demostrar dominio del framework).
-- [ ] Implementar la funcionalidad de búsqueda filtrando el QuerySet en la vista de listado.
+- [x] Configurar las URLs de la aplicación.
+- [x] Implementar las vistas (recomiendo usar **Class-Based Views** como `ListView`, `CreateView`, `UpdateView` y `DeleteView`).
+- [x] Implementar la funcionalidad de búsqueda filtrando el QuerySet en la vista de listado.
 
 ### Fase 5: Frontend con Django Templates
-- [ ] Crear una `base.html` para la estructura general y bloques de contenido.
-- [ ] Crear los templates para cada acción (listado, creación, edición, confirmación de borrado).
-- [ ] Aplicar estilos CSS (limpios y funcionales) aprovechando las etiquetas de Django.
+- [x] Crear una `base.html` para la estructura general y bloques de contenido.
+- [x] Crear los templates para cada acción (listado, creación, edición, confirmación de borrado).
+- [x] Aplicar estilos CSS (limpios y funcionales) aprovechando las etiquetas de Django.
 
 ### Fase 6: Testing y Refinado
-- [ ] Escribir tests para los modelos y las vistas usando `pytest`.
-- [ ] Asegurar que el sistema de búsqueda y las validaciones funcionan como se espera.
-- [ ] Documentar el `README.md` con los pasos para ejecutar el servidor y crear un superusuario.
+- [x] Escribir tests para los modelos y las vistas usando `pytest`.
+- [x] Asegurar que el sistema de búsqueda y las validaciones funcionan como se espera.
+- [x] Documentar el `README.md` con los pasos para ejecutar el servidor y crear un superusuario.
+
+### Fase 7: Seguridad y Autenticación (Próximamente)
+- [ ] Implementar sistema de Login/Logout.
+- [ ] Restringir acceso al inventario solo a usuarios autenticados.
+- [ ] Asignar permisos: solo el admin puede borrar productos.
+
+### Fase 8: Exportación de Datos (Próximamente)
+- [ ] Implementar botón para descargar lista de productos en CSV o Excel.
+- [ ] Generar reporte en PDF del inventario actual.
+
+### Fase 9: Cierre y Documentación Técnica (Próximamente)
+- [ ] Refactorización final y limpieza de comentarios.
+- [ ] Documentar API (opcional) o manual de usuario final.
+- [ ] Preparar para despliegue.
