@@ -31,9 +31,9 @@
 - [x] Implementar la funcionalidad de búsqueda filtrando el QuerySet en la vista de listado.
 
 ### Fase 5: Frontend con Django Templates
-- [ ] Crear una `base.html` para la estructura general y bloques de contenido.
-- [ ] Crear los templates para cada acción (listado, creación, edición, confirmación de borrado).
-- [ ] Aplicar estilos CSS (limpios y funcionales) aprovechando las etiquetas de Django.
+- [x] Crear una `base.html` para la estructura general y bloques de contenido.
+- [x] Crear los templates para cada acción (listado, creación, edición, confirmación de borrado).
+- [x] Aplicar estilos CSS (limpios y funcionales) aprovechando las etiquetas de Django.
 
 ### Fase 6: Testing y Refinado
 - [ ] Escribir tests para los modelos y las vistas usando `pytest`.
